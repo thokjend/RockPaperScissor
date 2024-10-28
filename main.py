@@ -55,7 +55,6 @@ def game():
         print(f"Scores: Player: {player_score} | Computer: {computer_score}")
         print("***************************************")
         
-        # Option to play another round or quit
         play_again = input("\nDo you want to play another round? (y/n): ").strip().lower()
         if play_again != 'y':
             print("\nThank you for playing! Final Scores:")
